@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Rubik", sans-serif;
+    color: #444;
+    font-size: 62.5%;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  header {
+    height: 100vh;
+    position: relative;
+
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(../photo/header-image.jpg);
+    background-size: cover;
+    color: #fff;
+  }
+
+  nav {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+
+  .header-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .header-container-inner {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+  }
+
+  h2 {
+    font-size: 44px;
+    margin-bottom: 48px;
+  }
+
+  section {
+    padding: 96px 0;
+    background-color: #f7f7f7;
+  }
+
+  .about-links a
+  {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 6px;
+    border-radius: 9px;
+  }
+  .grid
+  {
+    display: grid;
+  }
+  .grid-2-cols
+  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .text-about-1
+  {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:3.2rem 6.4rem;
+
+  }
+
+  .text-about-1 blockquote
+  {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    line-height: 26px;
+    color: #111;
+    font-weight: 600;
+  }
+  .main-text
+  {
+    display: flex;
+  }
+  .main-text h2
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid--2--cols3 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 40rem 40rem 40rem;
+    gap: 4rem;
+    margin: 0 auto;
+    /* margin-top: 2rem; */
+  }
+  
+  .logos {
+    display: flex;
+    width: 50%;
+    padding: 1.6rem 3.2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .uil {
+    margin-right: 0.2rem;
+    color: black;
+  }
+  .about-profile {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 3.2rem;
+  }
+
+  .about-profile p
+  {
+    padding: 0.8rem 3.2rem;
+  }
